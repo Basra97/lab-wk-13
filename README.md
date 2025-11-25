@@ -1,5 +1,8 @@
 # lab-wk-13
 
+Karnveer Basra
+Justin Kim
+Henry Wong
 
 
 
