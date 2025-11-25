@@ -1,1 +1,3 @@
-
+.terraform/
+bucket_info.txt
+*.tfstate
