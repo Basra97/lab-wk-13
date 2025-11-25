@@ -16,7 +16,7 @@ The lock file is present only while Terraform is running a command that can chan
 
 5. Is the lock file always in the bucket after it is created?
    
-No because the S3 lock file is temporary. It is only created when Terraform is running a command that modifies infrastructure like terraform apply and when Terraform finishes, the S3 lock file is removed, so you normally won’t see it in the bucket unless a Terraform run is happening.
+No, because the S3 lock file is temporary. It is only created when Terraform is running a command that modifies infrastructure like terraform apply and when Terraform finishes, the S3 lock file is removed, so you normally won’t see it in the bucket unless a Terraform run is happening.
 
 
 State File only:
